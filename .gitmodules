@@ -1,0 +1,3 @@
+[submodule "CommandLib"]
+	path = CommandLib
+	url = https://github.com/OmegaMetor/CommandLib.git
