@@ -6,8 +6,11 @@ namespace Sycan {
 namespace AssetProvider{
 
 class TextureProvider{
+    SDL_Texture* texture;
     public:
-    virtual SDL_Texture* getTexture();
+    SDL_Texture* getTexture();
+    TextureProvider(const char* texturePath);
+    TextureProvider();
 };
 
 }

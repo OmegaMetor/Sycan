@@ -17,6 +17,11 @@ class Object{
             bool flipX;
             bool flipY;
         } textureInfo;
+        struct
+        {
+            int x;
+            int y;
+        } position;
         
         
 };
